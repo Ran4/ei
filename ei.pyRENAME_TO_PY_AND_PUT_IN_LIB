@@ -1,0 +1,7 @@
+"""Stupid helper file. Use 'from ei import *' to import evaluate"""
+import sys
+#newDir = r"C:\ovrigt\Dropbox\pyy\evaluate"
+newDir = r"/usr/lib/python2.7"
+sys.path.append(newDir)
+#from evaluate import *
+from usefulfunctions import *
